@@ -1,0 +1,68 @@
+/*body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}*/
+
+/*article, aside, details, figcaption, figure, footer, header,
+hgroup, menu, nav, section {
+  display: block;
+}*/
+
+blockquote{
+  margin: 0 0 5px;
+  padding: 0;
+}
+
+dl{
+  margin-bottom: 0;
+}
+
+#msg {
+  margin: 0 0 20px;
+}
+
+
+/*
+body {
+  background-color: rgba(255,255,255);
+  font: 16px/1.42857 "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin:0;
+}
+
+header {
+  background-color: #373737;
+  color: #fff;
+  height: 50px;
+  padding: 10px 50px;
+}
+
+figure {
+  float:left;
+}
+
+main {
+  margin: 0 auto;
+  width: 900px;
+  display: block;
+}
+
+article {
+  float: left;
+  margin-bottom: 30px;
+  padding: 0 15px;
+  width: 500px;
+  overflow: hidden;
+}
+
+aside {
+  float: right;
+  padding-left: 15px;
+  width: 200px;
+  display: block;
+  overflow: hidden;
+  position:relative;
+}*/

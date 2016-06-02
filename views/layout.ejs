@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title><%= title %></title>
+    <% stylesheet('/css/style.css') -%>
+    <%- stylesheets %>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<header>
+    <h1>Chat</h1>
+</header>
+
+<main>
+    <%- body %>
+</main>
+
+<footer>
+</footer>
+<%- scripts %>
+</body>
+</html>

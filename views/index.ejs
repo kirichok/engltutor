@@ -1,11 +1,41 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
-</html>
+<% layout('layout') -%>
+<% script('js/chat.system.js') -%>
+<% script('js/bootstrap.min.js') -%>
+<% stylesheet('css/bootstrap.min.css') -%>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-6">
+
+            <div id="container-login">
+                <h1>Input login name, please</h1>
+                <input id="login" type="text" class="form-control" placeholder="Input login name">
+            </div>
+
+
+            <div id="container-chat">
+                <div id="chat-list"></div>
+                <input id="msg" type="text" class="form-control" placeholder="Text input">
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
+                <ul id="listUsers">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <article>
+
+    </article>
+
+    <aside>
+
+    </aside>
+</div>
+
+
