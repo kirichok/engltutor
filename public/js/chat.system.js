@@ -80,7 +80,7 @@ ChatClient.prototype.createConnection = function (reconnect) {
 
     console.log('Try to connect');
 
-    self.socket = new WebSocket('ws://localhost:3001/');
+    self.socket = new WebSocket('ws://'+window.location.hostname+':3001/');
 
     self.socket.onopen = function () {
         console.log('connected');
