@@ -9,7 +9,7 @@ router.get('/', function(req, res, next) {
 var clients = [];
 
 var WebSocketServer = require('ws').Server;
-var wss = new WebSocketServer({port: 3001});
+var wss = new WebSocketServer({port: 4000});
 wss.on('connection', function(socket){
     var connection = socket;
     //var connection = socket.accept('', socket.origin);
